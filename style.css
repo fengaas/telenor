@@ -21,7 +21,7 @@ p{
     background: #5d758c;
 	padding-top: 0,01%;
     padding-bottom: 0,1%
-    border: 1px;
+    border: solid 1px black;
 }
 .box2{
 	position: center;
