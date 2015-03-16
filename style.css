@@ -97,6 +97,7 @@ The white stripes in the hamburger button
     width: 90%;
 }
 
+<<<<<<< HEAD
     
 #box {
     width: 200px;
@@ -110,3 +111,10 @@ The white stripes in the hamburger button
 }
 
 
+=======
+.scheme {
+  
+    background-image: url('img/example_screens-12.png');
+    background-size:auto 100%;
+}
+>>>>>>> origin/master
