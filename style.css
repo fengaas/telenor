@@ -13,6 +13,8 @@ p{
 	text-align: center;
 	font-size: 100%;
 	color: white;
+
+/* The boxes */
 }
 .boxtops {
 	position: center;
@@ -25,18 +27,6 @@ p{
     border-width: 1px;
     border-radius: 2px 2px 2px 2px;
 }
-#boxchange {
-    position: center;
-    width: 100%;
-    overflow: hidden;
-    background: #7d91a7;
-    padding-top: 0,01%;
-    padding-bottom: 0,1%;
-    border-top: solid;
-    border-width: 1px;
-    border-radius: 2px 2px 2px 2px;
-}
-
 .boxmiddle{
 	position: center;
     width: 100%;
@@ -57,9 +47,11 @@ p{
     border-top: solid;
     border-width: 1px;
  }
+ /* Click on box to tur red */
  .changeBackground{
    background-color: #af403a !important;
 }
+/* Content in boxes */
 .celsius {
 	text-align: center;
 	font-size: 200%;
@@ -72,12 +64,14 @@ p{
 	font-size: 90%;
 	color: white;
 }
+
+/* Hamburger menu */
+
 header {
     position: fixed;
     width: 100%;
     z-index: 1;
 }
-
 #hamburger {
     cursor: pointer;
     display: block;
@@ -87,10 +81,7 @@ header {
     width: 25px;
     background: none;
 }
- 
-/*
-The white stripes in the hamburger button
-*/
+ /*The white stripes in the hamburger button*/
 #hamburger div {
     background-color: #fff;
     border: 1px solid #eee;
