@@ -57,6 +57,9 @@ p{
     border-top: solid;
     border-width: 1px;
  }
+ .changeBackground{
+   background-color: #af403a !important;
+}
 .celsius {
 	text-align: center;
 	font-size: 200%;
@@ -99,16 +102,6 @@ The white stripes in the hamburger button
 
 <<<<<<< HEAD
     
-#box {
-    width: 200px;
-    height: 200px;
-    background-color: #3FA5D5;
-}
- 
-
-.changeBackground{
-   background-color: #af403a !important;
-}
 
 
 =======

@@ -8,7 +8,17 @@
 <body>
 <script>
 $(window).load(function(){
-$("#boxchange").click(function () {
+$(".boxmiddle").click(function () {
+    $(this).toggleClass("changeBackground");
+});
+});
+$(window).load(function(){
+$(".boxtops").click(function () {
+    $(this).toggleClass("changeBackground");
+});
+});
+$(window).load(function(){
+$(".boxend").click(function () {
     $(this).toggleClass("changeBackground");
 });
 });
@@ -24,11 +34,11 @@ $("#boxchange").click(function () {
 
 </div>
 	<h1>Home</h1>
-  	<div class="boxtops">
+  <div class="boxtops">
  	<p class="sensor">Fridge</p>
  	<p class="celsius"> 5&#8451; 9&#8451;</p>
   </div>
-  <div id="boxchange">
+  <div class="boxtops">
   	<p class="sensor">Cellar</p>
   	<p class="celsius"> 1&#8451; 4&#8451;</p>
   </div>
@@ -48,6 +58,7 @@ $("#boxchange").click(function () {
     <p class="sensor">Dishwasher</p>
     <p class="celsius"> -3&#8451; 6&#8451; </p>
   </div>
+</div>
 
 </body>
 
