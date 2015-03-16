@@ -87,3 +87,8 @@ The white stripes in the hamburger button
     margin-top: 3px;
     width: 90%;
 }
+
+.scheme {
+    background-image: url('img/example_screens-12.png');
+background: no-repeat center center cover;
+}
