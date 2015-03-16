@@ -14,22 +14,38 @@ p{
 	font-size: 100%;
 	color: white;
 }
-.box {
+.boxtops {
+	position: center;
+    width: 100%;
+    overflow: hidden;
+    background: #7d91a7;
+	padding-top: 0,01%;
+    padding-bottom: 0,1%;
+    border-top: solid;
+    border-width: 1px;
+    border-radius: 2px 2px 2px 2px;
+}
+#boxchange {
+    position: center;
+    width: 100%;
+    overflow: hidden;
+    background: #7d91a7;
+    padding-top: 0,01%;
+    padding-bottom: 0,1%;
+    border-top: solid;
+    border-width: 1px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.boxmiddle{
 	position: center;
     width: 100%;
     overflow: hidden;
     background: #5d758c;
-	padding-top: 0,01%;
-    padding-bottom: 0,1%
-    border: solid 1px black;
-}
-.box2{
-	position: center;
-    width: 100%;
-    overflow: hidden;
-    background: #af403a;
     padding-top: 0,01%;
-    padding-bottom: 0,01%
+    padding-bottom: 0,01%;
+    border-top: solid black;
+    border-width: 1px;
 }
 .boxend{
 	position: center;
@@ -37,7 +53,9 @@ p{
     overflow: hidden;
     background: #465666;
     padding-top: 0,1%;
-    padding-bottom: 0,1%
+    padding-bottom: 0,1%;
+    border-top: solid;
+    border-width: 1px;
  }
 .celsius {
 	text-align: center;
@@ -58,22 +76,13 @@ header {
 }
 
 #hamburger {
-    border: 1px solid #374C77;
-    border-radius: 3px 3px 3px 3px;
     cursor: pointer;
     display: block;
     height: 24px;
     padding: 3px 4px 3px;
-    position: fixed;
+    position: absolute;
     width: 25px;
-    background: #4569b2;
-    background: -moz-linear-gradient(top,  #4569b2 0%, #4062a5 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4569b2), color-stop(100%,#4062a5));
-    background: -webkit-linear-gradient(top,  #4569b2 0%,#4062a5 100%);
-    background: -o-linear-gradient(top,  #4569b2 0%,#4062a5 100%);
-    background: -ms-linear-gradient(top,  #4569b2 0%,#4062a5 100%);
-    background: linear-gradient(to bottom,  #4569b2 0%,#4062a5 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4569b2', endColorstr='#4062a5',GradientType=0 );
+    background: none;
 }
  
 /*
@@ -87,3 +96,17 @@ The white stripes in the hamburger button
     margin-top: 3px;
     width: 90%;
 }
+
+    
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: #3FA5D5;
+}
+ 
+
+.changeBackground{
+   background-color: #af403a !important;
+}
+
+
