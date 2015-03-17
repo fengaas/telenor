@@ -1,109 +1,97 @@
 
 body {
-    background-color: #404a69;
-    font-family: helvetica; 
+background-color: #404a69;
+font-family: helvetica;
 }
 h1{
-	font-size: 180%;
-	text-align: center;
-	color: white;
+font-size: 180%;
+text-align: center;
+color: white;
 }
-
 p{
-	text-align: center;
-	font-size: 100%;
-	color: white;
-
+text-align: center;
+font-size: 100%;
+color: white;
 /* The boxes */
 }
 .boxtops {
-	position: center;
-    width: 100%;
-    overflow: hidden;
-    background: #7d91a7;
-	padding-top: 0,01%;
-    padding-bottom: 0,1%;
-    border-top: solid;
-    border-width: 1px;
-    border-radius: 2px 2px 2px 2px;
+position: center;
+width: 100%;
+overflow: hidden;
+background: #7d91a7;
+padding-top: 0,01%;
+padding-bottom: 0,1%;
+border-top: solid;
+border-width: 1px;
+border-radius: 2px 2px 2px 2px;
 }
 .boxmiddle{
-	position: center;
-    width: 100%;
-    overflow: hidden;
-    background: #5d758c;
-    padding-top: 0,01%;
-    padding-bottom: 0,01%;
-    border-top: solid black;
-    border-width: 1px;
+position: center;
+width: 100%;
+overflow: hidden;
+background: #5d758c;
+padding-top: 0,01%;
+padding-bottom: 0,01%;
+border-top: solid black;
+border-width: 1px;
 }
 .boxend{
-	position: center;
-    width: 100%;
-    overflow: hidden;
-    background: #465666;
-    padding-top: 0,1%;
-    padding-bottom: 0,1%;
-    border-top: solid;
-    border-width: 1px;
- }
- /* Click on box to tur red */
- .changeBackground{
-   background-color: #af403a !important;
+position: center;
+width: 100%;
+overflow: hidden;
+background: #465666;
+padding-top: 0,1%;
+padding-bottom: 0,1%;
+border-top: solid;
+border-width: 1px;
+}
+/* Click on box to tur red */
+.changeBackground{
+background-color: #af403a !important;
 }
 /* Content in boxes */
 .celsius {
-	text-align: center;
-	font-size: 100%;
-	color: #f5b431;
-	word-spacing: 90px;
-
+text-align: center;
+font-size: 100%;
+color: #f5b431;
+word-spacing: 90px;
 }
 .sensor {
-	text-align: center;
-	font-size: 90%;
-	color: white;
+text-align: center;
+font-size: 90%;
+color: white;
 }
-
 /* Hamburger menu */
-
 header {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+position: fixed;
+width: 100%;
+z-index: 1;
 }
 #hamburger {
-    cursor: pointer;
-    display: block;
-    height: 24px;
-    padding: 3px 4px 3px;
-    position: absolute;
-    width: 25px;
-    background: none;
+cursor: pointer;
+display: block;
+height: 24px;
+padding: 3px 4px 3px;
+position: absolute;
+width: 25px;
+background: none;
 }
- /*The white stripes in the hamburger button*/
+/*The white stripes in the hamburger button*/
 #hamburger div {
-    background-color: #fff;
-    border: 1px solid #eee;
-    border-radius: 2px 2px 2px 2px;
-    height: 2px;
-    margin-top: 3px;
-    width: 90%;
+background-color: #fff;
+border: 1px solid #eee;
+border-radius: 2px 2px 2px 2px;
+height: 2px;
+margin-top: 3px;
+width: 90%;
 }
-
 <<<<<<< HEAD
-    
-
-
 =======
 .scheme {
-   
-    background-image: url("img/example_screens-12.png");
-    background-size: 100%;
-    width: 100%;
-    height: 500px;
-   background-repeat: no-repeat;
-
-
+background-image: url("img/example_screens-12.png");
+background-size: 100%;
+width: 100%;
+height: 500px;
+background-repeat: no-repeat;
 }
 >>>>>>> origin/master
