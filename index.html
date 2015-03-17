@@ -23,17 +23,44 @@
     </header>
     
     <h1>Home</h1>
-    <div class="sensorContainer sensorTemp">
-        <div class="sensorBoxItem sensorValueLeft">
-            <p class="s_valueLeft">5</p><p class="s_valueLeft v_Suffix">&#8451;</p>
-        </div>
-        <div class="sensorBoxItem sensorName"><p>SensorName</p></div>
-        <div class="sensorBoxItem sensorValueRight">
-            <p class="s_valueRight">9</p><p class="s_valueRight v_Suffix">&#8451;</p>
-        </div>
-        
+<!--SENSOR_ITEM-->
+<div class="sensorContainer sensorTemp">
+    <div class="sensorBoxItem sensorValueLeft">
+        <p class="s_valueLeft">5</p>
+        <p class="s_valueLeft v_Suffix">&#8451;</p>
     </div>
-    
+    <div class="sensorBoxItem sensorName">
+        <p>SensorName</p>
+    </div>
+    <div class="sensorBoxItem sensorValueRight">
+        <p class="s_valueRight">9</p>
+        <p class="s_valueRight v_Suffix">&#8451;</p>
+    </div>
+<!-- ALERT_BOX-->
+<div class="alertBoxContainer">
+    <div class="alertCloseBtn"></div>
+
+    <div class="warningIcon"></div>
+    <h2 class="alertHeader">ALERT</h2>
+    <div class="alertBoxDesc">
+        <p>The Description of the alert event</p>
+    </div>
+    <div class="alertTimeIcon"></div>
+    <div class="alertTime">
+        <p class="alertTimeAgo">xx</p>
+        <p>min</p>
+    </div>
+</div>
+<!--RULE_TEXT-->
+    <div class="ruleBoxContainer">
+        <div class="ruleBoxDivider"></div>
+        <h2 class="ruleHeader">RULE</h2>
+        <div class="ruleBoxDesc">
+            <p>The Description of the rule event</p>
+        </div>
+    </div>
+
+</div>
 </body>
 
 </html>

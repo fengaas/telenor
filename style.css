@@ -56,6 +56,12 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #f5b431;
+}
+
 p {
     font-size: 100%;
     color: white;
@@ -65,10 +71,10 @@ p {
 /*CONTAINER*/
 
 .sensorContainer {
+    cursor: pointer;
     width: 100%;
     overflow: hidden;
     background: #7d91a7;
-    padding-top: 6em;
     border-top: solid;
     border-width: 1px;
     padding: 0;
@@ -96,8 +102,14 @@ p {
     justify-content: space-between;
     -webkit-align-content: center;
     align-content: center;
+    
+    -webkit-transition: all 1s;
+  transition: all 1s;
 }
-/*ITEMS*/
+
+/* Content in boxes */
+
+/*SENSOR_READINGS*/
 
 .sensorBoxItem {
     padding: 0.5em;
@@ -106,71 +118,130 @@ p {
 .sensorName {
     font-size: 0.3em;
 }
+.sensorName p {
+    color: #98bfea;
+}
 
 .sensorBoxItem p {
     display: inline-block;
     margin: 2px;
     font-size: 7em;
-font-weight: bold;}
+}
 
 .v_Suffix {
     font-size: 5em !important;
 }
 
-.sensorValueLeft {}
-
-.sensorValueRight {}
-/*
-.boxmiddle {
-    position: center;
-    width: 100%;
-    overflow: hidden;
-    background: #5d758c;
-    padding-top: 0, 01%;
-    padding-bottom: 0, 01%;
-    border-top: solid black;
-    border-width: 1px;
-}
-*/
-/*
-.boxend {
-    position: center;
-    width: 100%;
-    overflow: hidden;
-    background: #465666;
-    padding-top: 0, 1%;
-    padding-bottom: 0, 1%;
-    border-top: solid;
-    border-width: 1px;
-}
-*/
-/* Click on box to tur red */
-
-.changeBackground {
-    background-color: #af403a !important;
-}
-/* Content in boxes */
-
-.celsius {
-    text-align: center;
-    font-size: 100%;
+.sensorValueLeft p {
+    font-weight: bold;
     color: #f5b431;
-    word-spacing: 90px;
 }
 
-.sensor {
-    text-align: center;
-    font-size: 90%;
-    color: white;
+.sensorValueRight p {
+    font-weight: bold;
+    color: #98bfea;
 }
-/* Hamburger menu */
 
-header {
-    position: fixed;
+/*ALERT_BOX*/
+
+.alertBoxContainer{
     width: 100%;
-    z-index: 1;
+    padding: 1em;
+    margin: 1em;
+    background-color: #404a69;
+    border-radius: 1em;
+    display: block;
 }
 
+.warningIcon{
+    background: url(img/alert_icon-01.svg)no-repeat;
+    width: 1.4em;
+    height: 1.4em;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.alertHeader {
+    margin-left: 0.3em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.alertCloseBtn{
+    background: url(img/alertIconClose.svg)no-repeat;
+    width: 1.9em;
+    height: 1.9em;
+    display: inline-block;
+    float: right;
+}
+
+.alertBoxDesc{
+    width: 100%;
+    margin: 0.4em 0.6em;
+}
+
+.alertBoxDesc p{
+    font-size: 1.2em;
+    color: #f5b431;
+}
+
+.alertTimeIcon{
+    background: url(img/alert_icon-02.svg) no-repeat;
+    display: inline-block;
+    width: 1.1em;
+    height: 1.1em;
+    vertical-align: middle;
+    margin-left: 0.6em;
+}
+
+.alertTime{
+    display: inline;
+}
+
+.alertTime p{
+    display: inline-block;
+    color: #98bfea;
+}
+
+/*RULE_BOX*/
+
+.ruleBoxContainer {
+    width: 100%;
+    height: 100%;
+    margin: 1em;
+    display: block;
+    padding-bottom: .3em;
+}
+
+
+.ruleBoxDivider {
+    width: 0.6em;
+    min-height: 3.4em;
+    display: inline-block;
+    float: left;
+    background-color: #f5b431;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+
+
+
+.ruleHeader {
+    margin-top: 0.3em;
+    display: inline-block;
+}
+
+.ruleBoxDesc{
+    width: 100%;
+    margin: 0.1em 0em;
+}
+
+.ruleBoxDesc p {
+    font-size: 1.2em;
+    color: #f5b431;
+}
+
+/*HAMBURGER_MENU*/
 #hamburger {
     cursor: pointer;
     display: block;
@@ -181,7 +252,6 @@ header {
     background: none;
 }
 /*The white stripes in the hamburger button*/
-
 #hamburger div {
     background-color: #fff;
     border: 1px solid #eee;
