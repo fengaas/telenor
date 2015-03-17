@@ -84,8 +84,8 @@ position: center;
 width: 100%;
 overflow: hidden;
 background: #7d91a7;
-padding-top: 0,01%;
-padding-bottom: 0,1%;
+padding-top: 1%;
+padding-bottom: 1%;
 border-top: solid;
 border-width: 1px;
 border-radius: 2px 2px 2px 2px;
@@ -95,8 +95,8 @@ position: center;
 width: 100%;
 overflow: hidden;
 background: #5d758c;
-padding-top: 0,01%;
-padding-bottom: 0,01%;
+padding-top: 1%;
+padding-bottom: 1%;
 border-top: solid black;
 border-width: 1px;
 }
@@ -105,8 +105,8 @@ position: center;
 width: 100%;
 overflow: hidden;
 background: #465666;
-padding-top: 0,1%;
-padding-bottom: 0,1%;
+padding-top: 1%;
+padding-bottom: 1%;
 border-top: solid;
 border-width: 1px;
 }
@@ -116,18 +116,17 @@ background-color: #af403a !important;
 }
 /* Content in boxes */
 .celsius {
-text-align: left;
 font-size: 100%;
 color: #f5b431;
 display: inline;
-padding-right: 10%;
+padding-left: 30%;
 }
 .grader {
-text-align: right;
+float: right;
 font-size: 100%;
 color: #f5b431;
 display: inline;
-padding-left:10%;
+padding-right:30%;
 }
 .sensor {
 text-align: center;
