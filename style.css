@@ -118,8 +118,8 @@ background-color: #af403a !important;
 }
 /* Content in boxes */
 .leakage {
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
     padding-left: 10%;
     
 }
@@ -132,7 +132,7 @@ padding-left: 10%;
 }
 .grader {
 float: right;
-font-size: 3em;
+font-size: 4em;
 color: #f5b431;
 display: inline;
 padding-bottom: 2%;
