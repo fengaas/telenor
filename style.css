@@ -70,7 +70,7 @@ font-family: helvetica;
 padding-top: 2%
 }
 h1{
-font-size: 5em;
+font-size: 8em;
 text-align: center;
 color: white;
 padding-bottom: 2%;
@@ -118,21 +118,21 @@ background-color: #af403a !important;
 }
 /* Content in boxes */
 .celsius {
-font-size: 2em;
+font-size: 5em;
 color: #f5b431;
 display: inline;
 padding-left: 20%;
 }
 .grader {
 float: right;
-font-size: 2em;
+font-size: 5em;
 color: #f5b431;
 display: inline;
 padding-right:20%;
 }
 .sensor {
 text-align: center;
-font-size: 0,8em;
+font-size: 3em;
 color: white;
 }
 /* Hamburger menu */
@@ -174,4 +174,6 @@ width: 90%;
         width: 100%;
         min-width: 100%;
 }
+
+
 
