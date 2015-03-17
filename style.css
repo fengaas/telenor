@@ -117,6 +117,12 @@ border-width: 1px;
 background-color: #af403a !important;
 }
 /* Content in boxes */
+.leakage {
+    height: 5%;
+    width: 5%;
+    padding-left: 10%;
+    
+}
 .celsius {
 font-size: 5em;
 color: #f5b431;
