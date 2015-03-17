@@ -121,14 +121,14 @@ background-color: #af403a !important;
 font-size: 2em;
 color: #f5b431;
 display: inline;
-padding-left: 30%;
+padding-left: 20%;
 }
 .grader {
 float: right;
 font-size: 2em;
 color: #f5b431;
 display: inline;
-padding-right:30%;
+padding-right:20%;
 }
 .sensor {
 text-align: center;
