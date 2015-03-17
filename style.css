@@ -116,33 +116,44 @@ border-width: 1px;
 .changeBackground{
 background-color: #af403a !important;
 }
-/* Content in boxes */
+/* Icons in boxes */
 .leakage {
+    display: inline;
     height: 7%;
     width: 7%;
     padding-left: 10%;
-    float: left;  
+    float: left; 
+
 }
 .radar {
-    height: 7%;
-    width: 7%;
+    display: inline;
+    height: 10%;
+    width: 10%;
     padding-left: 10%;
     float: left;
+    
 }
-
+/* Content in boxes */
 .celsius {
-font-size: 5em;
+font-size: 4em;
 color: #f5b431;
 display: inline;
 padding-bottom: 2%;
 padding-left: 10%;
 }
-.grader {
+.celsius-right {
 display: inline;
 float: right;
 font-size: 4em;
 color: #f5b431;
-padding-top: 1em;
+padding-bottom: 2%;
+padding-right:10%;
+}
+.info {
+display: inline;
+float: right;
+font-size: 4em;
+color: #f5b431;
 padding-bottom: 2%;
 padding-right:10%;
 }
