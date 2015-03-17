@@ -127,10 +127,11 @@ background-color: #af403a !important;
 }
 .radar {
     display: inline;
-    height: 10%;
-    width: 10%;
+    height: 12%;
+    width: 12%;
     padding-left: 10%;
     float: left;
+    padding-bottom: 2%;
     
 }
 /* Content in boxes */
@@ -150,11 +151,10 @@ padding-bottom: 2%;
 padding-right:10%;
 }
 .info {
-display: inline;
+padding-top: 1em;
 float: right;
 font-size: 4em;
 color: #f5b431;
-padding-bottom: 2%;
 padding-right:10%;
 }
 .sensor {
@@ -162,6 +162,7 @@ text-align: center;
 font-size: 3em;
 color: white;
 padding-top: 2%;
+padding-bottom: 1em;
 }
 /* Hamburger menu */
 header {
