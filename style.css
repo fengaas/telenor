@@ -85,26 +85,17 @@ height: 2px;
 margin-top: 3px;
 width: 90%;
 }
-<<<<<<< HEAD
-=======
+
+/* Config.html */
 .scheme {
-<<<<<<< HEAD
-   
-    background-image: url("img/example_screens-12.png");
-    background-size: 100%;
-    width: 100%;
-    height: 2000px;
-   background-repeat: no-repeat;
+	overflow-y: hidden ! important;
+        overflow-x: hidden ! important;
 
-
-=======
-background-image: url("img/example_screens-12.png");
-background-size: 100%;
-width: 100%;
-height: 2000px;
-background-repeat: no-repeat;
->>>>>>> FETCH_HEAD
+	background: url(img/example_screens-12.png);
+	background-size: cover;
+        background-repeat: no-repeat;
+        
+        height: 1000px;
+        width: 100%;
+        min-width: 100%;
 }
->>>>>>> origin/master
-
-Julie er kul #yolo!
