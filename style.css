@@ -51,10 +51,18 @@ background-color: #af403a !important;
 }
 /* Content in boxes */
 .celsius {
-text-align: center;
+text-align: left;
 font-size: 100%;
 color: #f5b431;
-word-spacing: 90px;
+display: inline;
+padding-right: 10%;
+}
+.grader {
+text-align: right;
+font-size: 100%;
+color: #f5b431;
+display: inline;
+padding-left:10%;
 }
 .sensor {
 text-align: center;
@@ -76,7 +84,7 @@ position: absolute;
 width: 25px;
 background: none;
 }
-/*The white stripes in the hamburger button*/
+/*The white stripes in the hamburger menu*/
 #hamburger div {
 background-color: #fff;
 border: 1px solid #eee;
@@ -88,23 +96,11 @@ width: 90%;
 <<<<<<< HEAD
 =======
 .scheme {
-<<<<<<< HEAD
-   
-    background-image: url("img/example_screens-12.png");
-    background-size: 100%;
-    width: 100%;
-    height: 2000px;
-   background-repeat: no-repeat;
-
-
-=======
 background-image: url("img/example_screens-12.png");
 background-size: 100%;
 width: 100%;
 height: 500px;
 background-repeat: no-repeat;
->>>>>>> FETCH_HEAD
 }
 >>>>>>> origin/master
 
-Julie er kul #yolo!
