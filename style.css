@@ -147,19 +147,19 @@ z-index: 1;
 #hamburger {
 cursor: pointer;
 display: block;
-height: 24px;
-padding: 3px 4px 3px;
+height: 50px;
+padding: 13px 14px 13px;
 position: absolute;
-width: 25px;
+width: 49px;
 background: none;
 }
 /*The white stripes in the hamburger menu*/
 #hamburger div {
 background-color: #fff;
-border: 1px solid #eee;
-border-radius: 2px 2px 2px 2px;
-height: 2px;
-margin-top: 3px;
+border: 5px solid #eee;
+border-radius: 12px 12px 12px 12px;
+height: 6px;
+margin-top: 13px;
 width: 90%;
 }
 
