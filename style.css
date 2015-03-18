@@ -178,5 +178,18 @@ width: 90%;
         min-width: 100%;
 }
 
+/* alert.html */
 
+html, body{
+  min-height: 100%;
+}
+body{
+  position: relative;
+}
+
+
+body a {
+
+	text-decoration: none;
+}
 
