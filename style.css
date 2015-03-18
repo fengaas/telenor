@@ -262,6 +262,14 @@ body a {
      height: 250px;
 }
 
+#overlay h2 {
+	font-size: 4em;
+}
+
+#overlay h4 {
+	font-size: 2em;
+}
+
 =======
 }
 >>>>>>> FETCH_HEAD
