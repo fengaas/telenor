@@ -15,7 +15,7 @@ function theRotator() {
     //Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
  
     if ($('div.rotator ul li').length > 1) {
-    setTimeout('rotate()', 2000);
+    setTimeout('rotate()', 800);
 }
 }
  
@@ -28,27 +28,22 @@ function rotate() {
     //Get next image, when it reaches the end, rotate it back to the first image
     var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div.rotator ul li:first') :current.next()) : $('div.rotator ul li:first'));
  
-    //Un-comment the 3 lines below to get the images in random order
- 
-    //var sibs = current.siblings();
-    //var rndNum = Math.floor(Math.random() * sibs.length );
-    //var next = $( sibs[ rndNum ] );
- 
     //Set the fade in effect for the next image, the show class has higher z-index
-    next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
+    next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 500);
  
     //Hide the current image
-    current.animate({opacity: 0.0}, 1000, function(){setTimeout('rotate()', 2000);}) .removeClass('show');
+    current.animate({opacity: 0.0}, 500, function(){setTimeout('rotate()', 800);}) .removeClass('show');
  
 };
  
 $(document).ready(function() {
     //Load the slideshow
     theRotator();
-    $('div.rotator').fadeIn(1000);
-    $('div.rotator ul li').fadeIn(1000); // tweek for IE
+    $('div.rotator').fadeIn(500);
+    $('div.rotator ul li').fadeIn(500); // tweek for IE
 });
-// ]]></script>
+// ]]>
+</script>
   </head>
 <body>
 
@@ -96,17 +91,17 @@ $(this).toggleClass("changeBackground");
       <ul>
         <li class="show">
         <a href="javascript:void(0)">
-        <img src="icons/icons-04.svg" width="250" height="156,5"  alt="pic1" />
+        <img src="icons/icons-04.svg"  width="250" height="156,5" alt="pic1" />
         </a>
         </li>
         <li>
         <a href="javascript:void(0)">
-        <img src="icons/icons-05.svg" width="250" height="156,5"  alt="pic2" />
+        <img src="icons/icons-05.svg"  width="250" height="156,5" alt="pic2" />
         </a>
         </li>
         <li>
         <a href="javascript:void(0)">
-        <img src="icons/icons-06.svg" width="250" height="156,5"  alt="pic3" />
+        <img src="icons/icons-06.svg"  width="250" height="156,5" alt="pic3" />
         </a>
         </li>
         <li>
@@ -120,32 +115,32 @@ $(this).toggleClass("changeBackground");
 
   <div class="boxmiddle">
     <p class="sensor">Livingroom</p>
-    <!-- Have two and it fucks up... 
-    <div class="rotator">
+     
+    <!--<div class="rotator">
       <ul>
         <li class="show">
         <a href="javascript:void(0)">
-        <img src="icons/icons-04.svg" width="250" height="156,5"  alt="pic1" />
+        <img src="icons/icons2-04.svg" width="250" height="156,5"  alt="pic1" />
         </a>
         </li>
         <li>
         <a href="javascript:void(0)">
-        <img src="icons/icons-05.svg" width="250" height="156,5"  alt="pic2" />
+        <img src="icons/icons2-05.svg" width="250" height="156,5"  alt="pic2" />
         </a>
         </li>
         <li>
         <a href="javascript:void(0)">
-        <img src="icons/icons-06.svg" width="250" height="156,5"  alt="pic3" />
+        <img src="icons/icons2-06.svg" width="250" height="156,5"  alt="pic3" />
         </a>
         </li>
         <li>
         <a href="javascript:void(0)">
-        <img src="icons/icons-07.svg" width="250" height="156,5"  alt="pic4" />
+        <img src="icons/icons2-07.svg" width="250" height="156,5"  alt="pic4" />
         </a>
         </li>
       </ul>
-    </div> -->
-  </div>
+    </div> 
+  </div>-->
   
   <div class="boxend">
     <p class="sensor">Washingmachine</p>
