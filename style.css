@@ -245,7 +245,7 @@ body a {
 #overlay {
      visibility: hidden;
      position: fixed;
-     left: 37%;
+     left: 30%;
      top: 500px;
     
      text-align:center;
