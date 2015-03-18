@@ -29,7 +29,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-
 body {
 	line-height: 1;
 }
@@ -44,7 +43,6 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-
 /* remember to define visible focus styles! 
 :focus {
 	outline: ?????;
@@ -57,13 +55,10 @@ ins {
 del {
 	text-decoration: line-through;
 }
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
 body {
 background-color: #404a69;
 font-family: arial;
@@ -72,11 +67,13 @@ padding-top: 2%
 h1{
 font-size: 8em;
 text-align: center;
+font-family: arial;
 color: white;
 padding-bottom: 2%;
 }
 p{
 text-align: center;
+font-family: arial;
 font-size: 100%;
 color: white;
 /* The boxes */
@@ -90,7 +87,6 @@ padding-top: 1%;
 padding-bottom: 1%;
 border-top: solid #404a69;
 border-width: 1px;
-border-radius: 2px 2px 2px 2px;
 }
 .boxmiddle{
 position: center;
@@ -123,17 +119,14 @@ background-color: #af403a !important;
     width: 7%;
     padding-left: 10%;
     float: left; 
-
 }
-.radar {
+/*.radar {
     display: inline-block;
     height: 12%;
     width: 12%;
     padding-left: 10%;
-    float: left;
-    
-    
-}
+    float: left;   
+}*/
 /* Content in boxes */
 .celsius {
 font-size: 4em;
@@ -159,7 +152,6 @@ font-size: 4em;
 color: #f5b431;
 padding-right:10%;
 font-family: arial;
-
 }
 .sensor {
 text-align: center;
@@ -194,6 +186,31 @@ margin-top: 13px;
 width: 90%;
 }
 
+/* rotator in-page placement */
+    div.rotator {
+    position:relative;
+    height:200px;
+    display:none;
+}
+/* rotator css */
+    div.rotator ul {
+    margin:0;
+    padding:0;
+}
+    div.rotator ul li {
+    float:left;
+    position:absolute;
+    list-style: none;
+}
+/* rotator image style */
+    div.rotator ul li img {
+    /*border:1px solid #ccc;*/
+    padding: 4px;
+    /*background: #FFF;*/
+}
+    div.rotator ul li.show {
+    z-index:500;
+}
 
 /* Config.html */
 .scheme {
@@ -208,6 +225,3 @@ width: 90%;
         width: 100%;
         min-width: 100%;
 }
-
-
-
