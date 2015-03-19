@@ -176,6 +176,7 @@ padding-bottom: 1em;
 font-family: arial;
 }
 /* Hamburger menu */
+/* Hamburger menu */
 header {
 position: relative;
 width: 100%;
@@ -198,6 +199,7 @@ height: 1px;
 margin-top: 8px;
 width: 90%;
 }
+
 
 /* Config.html */
 .scheme {
