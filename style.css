@@ -220,15 +220,19 @@ width: 90%;
 
 html, body{
   min-height: 100%;
+  
+
 }
 body{
   position: relative;
+
 }
 
 
 body a {
 
 	text-decoration: none;
+
 }
 
 #overlay {
