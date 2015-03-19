@@ -260,14 +260,19 @@ body a {
      padding:25px;
      text-align:center;
      height: 260px;
+
 }
 
 #overlay h2 {
 	font-size: 4em;
+	color: #f5b431;
+	margin-bottom: .5em;
 }
 
 #overlay h4 {
 	font-size: 2em;
+	color: #f5b431;
+	line-height: 1.5em;
 }
 
 =======
