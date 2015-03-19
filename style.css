@@ -254,16 +254,16 @@ body a {
 }
 
 #overlay {
-    width: 600px;
+    width: 650px;
     height: 300px;
     line-height: 200px;
     position: fixed;
     top: 500px; 
-    left: 27%;
+    left: 20%;
     
     
     background-color: #404a69;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     z-index: 11; /* 1px higher than the overlay layer */
 }
