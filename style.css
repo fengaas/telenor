@@ -65,7 +65,7 @@ font-family: arial;
 padding-top: 2%
 }
 h1{
-font-size: 6em;
+font-size: 4em;
 text-align: center;
 font-family: arial;
 color: white;
@@ -177,19 +177,19 @@ z-index: 1;
 #hamburger {
 cursor: pointer;
 display: block;
-height: 50px;
+height: 20px;
 padding: 13px 14px 13px;
 position: absolute;
-width: 80px;
+width: 60px;
 background: none;
 }
 /*The white stripes in the hamburger menu*/
 #hamburger div {
 background-color: #fff;
 border: 5px solid #eee;
-border-radius: 12px 12px 12px 12px;
-height: 6px;
-margin-top: 13px;
+border-radius: 10px 10px 10px 10px;
+height: 1px;
+margin-top: 8px;
 width: 90%;
 }
 
