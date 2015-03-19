@@ -133,6 +133,7 @@ border-width: 1px;
     float:left;
    
 }
+
 .time{
     height: 30%;
     width: 30%;
@@ -183,9 +184,15 @@ width: 100%;
 #hamburger {
 cursor: pointer;
 display: block;
+<<<<<<< HEAD
 height: 1px;
 padding: 1px 15px 1px;
 position: relative;
+=======
+height: 20px;
+padding: 13px 14px 13px;
+position: fixed;
+>>>>>>> origin/master
 width: 60px;
 background: none;
 }
@@ -234,12 +241,13 @@ body a {
 }
 
 #overlay {
-    width: 800px;
-    height: 300px;
+    width: 900px;
+    height: 310px;
     
     position: fixed;
-    top: 500px; 
-    left: 10%;
+    top: 482px; 
+    left: 4%;
+    
     
     
     background-color: #404a69;
@@ -260,3 +268,17 @@ body a {
 	padding-top: 1em;
 }
 
+<<<<<<< HEAD
+=======
+#ok {
+	position: fixed;
+	top: 792px;
+	height: 120px;
+	width: 900px;
+	left: 4%;
+	background-color: #f5b431;
+
+}
+
+
+>>>>>>> origin/master
