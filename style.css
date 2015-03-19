@@ -65,7 +65,7 @@ font-family: arial;
 padding-top: 2%
 }
 h1{
-font-size: 8em;
+font-size: 6em;
 text-align: center;
 font-family: arial;
 color: white;
@@ -120,13 +120,20 @@ background-color: #af403a !important;
     padding-left: 10%;
     float: left; 
 }
-/*.radar {
+.radar {
     display: inline-block;
-    height: 12%;
-    width: 12%;
-    padding-left: 10%;
+    height: 17%;
+    width: 17%;
+    padding-left: 6%;
     float: left;   
-}*/
+}
+.time{
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    padding-right: 6%;
+    float: right;  
+}
 /* Content in boxes */
 .celsius {
 font-size: 4em;
@@ -189,28 +196,22 @@ width: 90%;
 /* rotator in-page placement */
     div.rotator {
     position:relative;
-    height:200px;
-    display:none;
-}
-/* rotator css */
-    div.rotator ul {
-    margin:0;
-    padding:0;
-
+    height:156,5px;
+    display:inline;
 }
     div.rotator ul li {
     float:left;
     position:absolute;
-    list-style: none;
+    /*list-style: none;*/
    
 }
 /* rotator image style */
     div.rotator ul li img {
     padding: 4px;
 }
-    div.rotator ul li.show {
-    z-index:500;
+    
 }
+
 
 /* Config.html */
 .scheme {
