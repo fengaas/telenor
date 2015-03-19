@@ -236,12 +236,12 @@ body a {
 }
 
 #overlay {
-    width: 800px;
-    height: 300px;
+    width: 900px;
+    height: 310px;
     
     position: fixed;
-    top: 500px; 
-    left: 10%;
+    top: 482px; 
+    left: 5%;
     
     
     background-color: #404a69;
