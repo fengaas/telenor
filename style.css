@@ -126,22 +126,22 @@ background-color: #af403a !important;
     width: 2%;
     padding-left: 50%;
     
-}
-.gif {
-    display: inline-block;  
-    padding-left: 5% ;
-    float:left;    
+
+        
 }
 .gif img{
-    height: 40%;
-    width: 40%;
-    
+    height: 17%;
+    width: 17%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    float:left;
+   
 }
 .time{
-    display: inline-block;
     height: 30%;
     width: 30%;
     padding-right: 6%;
+    padding-top: 1%;
     float: right;  
 }
 /* Content in boxes */
