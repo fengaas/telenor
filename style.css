@@ -128,14 +128,17 @@ background-color: #af403a !important;
     
 }
 .gif {
-    display: inline;
-    height: 20%;
-    width: 20%;  
+    display: inline-block;  
     padding-left: 5% ;
     float:left;    
 }
+.gif img{
+    height: 40%;
+    width: 40%;
+    
+}
 .time{
-    display: inline;
+    display: inline-block;
     height: 30%;
     width: 30%;
     padding-right: 6%;
