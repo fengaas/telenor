@@ -3,55 +3,11 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <script src="http://code.jquery.com/jquery-2.1.3.min.js" type="text/javascript"></script>
-    <script type="text/javascript"> </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script><!-- By Dylan Wagstaff, http://www.alohatechsupport.net --><script type="text/javascript">// <![CDATA[
-function theRotator() {
-    //Set the opacity of all images to 0
-    $('div.rotator ul li').css({opacity: 0.0});
- 
-    //Get the first image and display it (gets set to full opacity)
-    $('div.rotator ul li:first').css({opacity: 1.0});
- 
-    //Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
- 
-    if ($('div.rotator ul li').length > 1) {
-    setTimeout('rotate()', 800);
-}
-}
- 
-function rotate() {
-    //Get the first image
-    var current = ($('div.rotator ul li.show')? $('div.rotator ul li.show') : $('div.rotator ul li:first'));
- 
-    if ( current.length == 0 ) current = $('div.rotator ul li:first');
- 
-    //Get next image, when it reaches the end, rotate it back to the first image
-    var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div.rotator ul li:first') :current.next()) : $('div.rotator ul li:first'));
- 
-    //Set the fade in effect for the next image, the show class has higher z-index
-    next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 500);
- 
-    //Hide the current image
-    current.animate({opacity: 0.0}, 500, function(){setTimeout('rotate()', 800);}) .removeClass('show');
- 
-};
- 
-$(document).ready(function() {
-    //Load the slideshow
-    theRotator();
-    $('div.rotator').fadeIn(500);
-    $('div.rotator ul li').fadeIn(500); // tweek for IE
-});
-// ]]>
-</script>
-
-    
 
     <script> function overlay()
   {
   el = document.getElementById("overlay");
   el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible"; } </script>
-
   </head>
 <body>
 
@@ -69,16 +25,9 @@ $(this).toggleClass("changeBackground");
 $(window).load(function(){
 $(".boxend").click(function () {
 $(this).toggleClass("changeBackground");
-});
-});
 </script>
 
-<div id="overlay">
-     <div>
-          <h2>ALERT</h2>
-          <h4>Your front door has been opened</h4>
-     </div>
-</div>
+
 
 <header>
   <div id="hamburger">
@@ -88,81 +37,40 @@ $(this).toggleClass("changeBackground");
   </div>
 </header>
 
-<h1>Home</h1>
+<div id="overlay">
+     <div>
+          <h2>ALERT</h2>
+          <h4>Your front door has been opened</h4>
+     </div>
+</div>
 
-
-
-
-
+<h1>HOME</h1>
 
 <a href='#' onclick='overlay()'>
 
   <div class="boxtops">
     <p class="sensor">Fridge</p>
-    <p class="celsius"> 5&#8451; </p> <p class="celsius-right">9&#8451;</p>
+    <p class="celsius"> 5&#8451;</p> 
+    <img class="arrow" src="icons/icon-arrow-blue.svg">
+    <p class="celsius-right">9&#8451;</p>
   </div>
 
   <div class="boxtops">
     <p class="sensor">Cellar</p>
-    <p class="celsius"> 1&#8451; </p><p class="celsius-right"> 4&#8451;</p>
+    <p class="celsius"> 1&#8451; </p><img class="arrow" src="icons/icon-arrow-blue.svg"><p class="celsius-right"> 4&#8451;</p>
   </div>
 
   <div class="boxmiddle">
     <p class="sensor">Hallway</p>
-    <div class="rotator">
-      <ul>
-        <li class="show">
-        <a href="javascript:void(0)">
-        <img src="icons/icons-04.svg"  width="250" height="156,5" alt="pic1" />
-        </a>
-        </li>
-        <li>
-        <a href="javascript:void(0)">
-        <img src="icons/icons-05.svg"  width="250" height="156,5" alt="pic2" />
-        </a>
-        </li>
-        <li>
-        <a href="javascript:void(0)">
-        <img src="icons/icons-06.svg"  width="250" height="156,5" alt="pic3" />
-        </a>
-        </li>
-        <li>
-        <a href="javascript:void(0)">
-        <img src="icons/icons-07.svg" width="250" height="156,5"  alt="pic4" />
-        </a>
-        </li>
-      </ul>
-    </div>
-  </div>
+    <img class="gif" src="icons/icon.gif">
+    <div class="time"> <img src="icons/icon-time.svg"></div>
+
 
   <div class="boxmiddle">
     <p class="sensor">Livingroom</p>
-     
-    <!--<div class="rotator">
-      <ul>
-        <li class="show">
-        <a href="javascript:void(0)">
-        <img src="icons/icons2-04.svg" width="250" height="156,5"  alt="pic1" />
-        </a>
-        </li>
-        <li>
-        <a href="javascript:void(0)">
-        <img src="icons/icons2-05.svg" width="250" height="156,5"  alt="pic2" />
-        </a>
-        </li>
-        <li>
-        <a href="javascript:void(0)">
-        <img src="icons/icons2-06.svg" width="250" height="156,5"  alt="pic3" />
-        </a>
-        </li>
-        <li>
-        <a href="javascript:void(0)">
-        <img src="icons/icons2-07.svg" width="250" height="156,5"  alt="pic4" />
-        </a>
-        </li>
-      </ul>
-    </div> 
-  </div>-->
+    <img class="gif" src="icons/icon.gif">
+    <div class="time"> <img src="icons/icon-time.svg"></div>  
+  </div>
   
   <div class="boxend">
     <p class="sensor">Washingmachine</p>
@@ -175,7 +83,36 @@ $(this).toggleClass("changeBackground");
     <p class="info"> No <br class="rwd-break">leakage </p>
   </div>
 
-  </a>
+
+  
+
+<!-- test 
+<div class="rotator">
+<ul>
+<li class="show">
+<a href="javascript:void(0)">
+<img src="icons/icons-04.svg" width="500" height="313"  alt="pic1" />
+</a>
+</li>
+<li>
+<a href="javascript:void(0)">
+<img src="icons/icons-05.svg" width="500" height="313"  alt="pic2" />
+</a>
+</li>
+<li>
+<a href="javascript:void(0)">
+<img src="icons/icons-06.svg" width="500" height="313"  alt="pic3" />
+</a>
+</li>
+<li>
+<a href="javascript:void(0)">
+<img src="icons/icons-07.svg" width="500" height="313"  alt="pic4" />
+</a>
+</li>
+</ul>
+</div> -->
+
+ </a>
 
 </body>
 </html>
