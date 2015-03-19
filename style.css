@@ -188,7 +188,7 @@ cursor: pointer;
 display: block;
 height: 20px;
 padding: 13px 14px 13px;
-position: absolute;
+position: fixed;
 width: 60px;
 background: none;
 }
@@ -242,7 +242,7 @@ body a {
     
     position: fixed;
     top: 490px; 
-    left: 10%;
+    left: 5%;
     
     
     background-color: #404a69;
@@ -263,6 +263,4 @@ body a {
 	padding-top: 1em;
 }
 
-=======
-}
->>>>>>> FETCH_HEAD
+
