@@ -231,6 +231,33 @@ body a {
 	text-decoration: none;
 }
 
+#overlay {
+    width: 800px;
+    height: 300px;
+    
+    position: fixed;
+    top: 500px; 
+    left: 10%;
+    
+    
+    background-color: #404a69;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
+
+#overlay h2 {
+	color: #f5b431;
+	font-size: 2em;
+	padding-top: 2em;
+}
+
+#overlay h4 {
+	color: #f5b431;
+	font-size: 1.5em;
+	padding-top: 2em;
+}
+
 =======
 }
 >>>>>>> FETCH_HEAD
