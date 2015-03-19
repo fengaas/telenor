@@ -195,9 +195,9 @@ width: 90%;
 
 /* rotator in-page placement */
     div.rotator {
-    position:;
-    height: 100px;
-    display:inline-block;
+    position:relative;
+    height: 50px;
+    display:none;
     padding-left: 6%;
     
 }
