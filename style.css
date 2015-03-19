@@ -150,7 +150,10 @@ p {
     margin: 1em;
     background-color: #404a69;
     border-radius: 1em;
-    display: block;
+/*    DISPLAY_SETTING*/
+    display: none;
+    -webkit-transition: all 1s;
+  transition: all 1s; 
 }
 
 .warningIcon{
@@ -209,14 +212,17 @@ p {
     width: 100%;
     height: 100%;
     margin: 1em;
-    display: block;
+/*    DISPLAY_SETTING*/
+    display: none;
     padding-bottom: .3em;
+    -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 
 .ruleBoxDivider {
     width: 0.6em;
-    min-height: 3.4em;
+    height: 4em;
     display: inline-block;
     float: left;
     background-color: #f5b431;
@@ -233,6 +239,7 @@ p {
 
 .ruleBoxDesc{
     width: 100%;
+    height: auto;
     margin: 0.1em 0em;
 }
 
