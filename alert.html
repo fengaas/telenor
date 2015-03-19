@@ -8,6 +8,7 @@
   {
   el = document.getElementById("overlay");
   el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible"; } </script>
+
   </head>
 <body>
 
@@ -37,6 +38,8 @@ $(this).toggleClass("changeBackground");
   </div>
 </header>
 
+<h1>HOME</h1>
+
 <div id="overlay">
      <div>
           <h2>ALERT</h2>
@@ -44,33 +47,34 @@ $(this).toggleClass("changeBackground");
      </div>
 </div>
 
-<h1>HOME</h1>
 
 <a href='#' onclick='overlay()'>
 
   <div class="boxtops">
     <p class="sensor">Fridge</p>
     <p class="celsius"> 5&#8451;</p> 
-    <img class="arrow" src="icons/icon-arrow-blue.svg">
+    <img src="icons/Icon-arrow-blue.svg">
     <p class="celsius-right">9&#8451;</p>
   </div>
 
   <div class="boxtops">
     <p class="sensor">Cellar</p>
-    <p class="celsius"> 1&#8451; </p><img class="arrow" src="icons/icon-arrow-blue.svg"><p class="celsius-right"> 4&#8451;</p>
+    <p class="celsius"> 1&#8451; </p>
+    <img src="icons/Icon-arrow-blue.svg">
+    <p class="celsius-right"> 4&#8451;</p>
   </div>
 
   <div class="boxmiddle">
     <p class="sensor">Hallway</p>
-    <img class="gif" src="icons/icon.gif">
+    <div class="gif"> <img  src="icons/icon.gif"> </div>
     <div class="time"> <img src="icons/icon-time.svg"></div>
 
 
   <div class="boxmiddle">
     <p class="sensor">Livingroom</p>
-    <img class="gif" src="icons/icon.gif">
+    <div class="gif"> <img  src="icons/icon.gif"> </div>
     <div class="time"> <img src="icons/icon-time.svg"></div>  
-  </div>
+  
   
   <div class="boxend">
     <p class="sensor">Washingmachine</p>
@@ -82,37 +86,8 @@ $(this).toggleClass("changeBackground");
     <div class="leakage"><img src="icons/icons-03.svg"></div>
     <p class="info"> No <br class="rwd-break">leakage </p>
   </div>
-
-
-  
-
-<!-- test 
-<div class="rotator">
-<ul>
-<li class="show">
-<a href="javascript:void(0)">
-<img src="icons/icons-04.svg" width="500" height="313"  alt="pic1" />
 </a>
-</li>
-<li>
-<a href="javascript:void(0)">
-<img src="icons/icons-05.svg" width="500" height="313"  alt="pic2" />
-</a>
-</li>
-<li>
-<a href="javascript:void(0)">
-<img src="icons/icons-06.svg" width="500" height="313"  alt="pic3" />
-</a>
-</li>
-<li>
-<a href="javascript:void(0)">
-<img src="icons/icons-07.svg" width="500" height="313"  alt="pic4" />
-</a>
-</li>
-</ul>
-</div> -->
 
- </a>
 
 </body>
 </html>
