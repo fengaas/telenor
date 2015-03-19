@@ -262,3 +262,9 @@ body a {
 	padding-top: 1em;
 }
 
+/* MENU VIEW*/
+#menuview {
+    background-image: url("icons/back-burger.png");
+    background-color: #002e3f;
+    background-repeat:no-repeat;
+}
