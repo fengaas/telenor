@@ -265,4 +265,14 @@ body a {
 	padding-top: 1em;
 }
 
+#ok {
+	position: fixed;
+	top: 792px;
+	height: 120px;
+	width: 900px;
+	left: 4%;
+	background-color: #f5b431;
+
+}
+
 
