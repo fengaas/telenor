@@ -237,11 +237,11 @@ body a {
 }
 
 #overlay {
-    width: 800px;
+    width: 900px;
     height: 300px;
     
     position: fixed;
-    top: 500px; 
+    top: 490px; 
     left: 10%;
     
     
