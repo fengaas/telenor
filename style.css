@@ -276,7 +276,13 @@ body a {
 
 /*BOX DROP*/
 #ruledrop {
-    padding-left: 5%;
+    position: ;
+    padding-top: 10px;
     padding-bottom: 5%;
-    float:left; 
+    float: left;
+    height: 80%;
+    width: 80%;
+    padding-left: 2%;
+    
+     
 }
