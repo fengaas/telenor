@@ -273,3 +273,10 @@ body a {
     background-size: cover; 
     height: 1500px; width: 100%; min-width: 100%
 }
+
+/*BOX DROP*/
+#ruledrop {
+    padding-left: 5%;
+    padding-bottom: 5%;
+    float:left; 
+}
