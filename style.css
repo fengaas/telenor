@@ -286,3 +286,15 @@ body a {
     
      
 }
+
+/* edit_rule.html */
+
+.edit_rule {
+    height: 320px;
+
+}
+
+#edit {
+    left: 20%;
+    margin-top: 50px;
+}
