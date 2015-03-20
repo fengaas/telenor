@@ -290,11 +290,11 @@ body a {
 /* edit_rule.html */
 
 .edit_rule {
-    height: 320px;
+    height: 210px;
 
 }
 
 #edit {
     margin-left: 165px;
-    margin-top: 110px;
+    margin-top: 60px;
 }
