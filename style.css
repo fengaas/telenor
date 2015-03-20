@@ -263,8 +263,8 @@ body a {
 }
 
 /* MENU VIEW*/
-#menuview {
-    background-image: url("icons/back-burger2.png");
+#ruleview {
+    background-image: url("icons/ruleview.png");
     background-color: #002e3f;
     background-repeat:no-repeat;
     overflow-y: hidden ! important; 
